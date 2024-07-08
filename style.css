@@ -1,9 +1,8 @@
-#pink{
-    color:pink;
-}
-#yellow{
-    color:yellow;
-}
-#gray{
-    color:gray;
+body {
+    background: #0000ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    
 }
