@@ -1,0 +1,54 @@
+@font-face {
+    font-family: vcr;
+    src: url("./assets/fonts/vcr.ttf");
+    font-weight: normal;
+}
+
+#panel{
+    padding: 30px 675px;
+    background-color:rgb(100, 0, 0);
+    border:none;
+    border-radius: 35px;
+    position: fixed;
+    top: 15px;
+}
+
+#menu
+{
+    padding: 25px 25px;
+    background-color: red;
+    display: flex;
+    border: none;
+    border-radius: 25px;
+    position: fixed;
+    left: 20px;
+    top: 40px;
+}
+
+#siteImage{
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+    position: fixed;
+    left: 20px;
+    top: 40px;
+}
+
+#siteImage:hover{
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+    position: fixed;
+    transform: scale(1.4);
+    transition: 0.5s ease-in-out;
+} 
+
+#siteName{
+    color: white;
+    position:fixed;
+    top: 30px;
+    left: 90px;
+    font-size: 32px;
+    width: 600px;
+    font-style: vcr;
+}
