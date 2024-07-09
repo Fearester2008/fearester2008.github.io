@@ -2,14 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible"/>
     <meta name="viewport"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fearester2008</title>
     <link rel="icon" type="image/x-icon" href="https://github.com/Fearester2008/Alt-Engine/blob/main/assets/preload/images/credits/fearester.png?raw=true">
 
+    <link rel="stylesheet" href="./style.css"/>
     <link rel="stylesheet" href="./css/pages/main-page.css"/>
     <link rel="stylesheet" href="./css/objects/panel.css"/>
+    <link rel="stylesheet" href="./css/objects/buttons.css"/>
 
     <script src="./js/objects/panel.js"> </script>
 </head>
@@ -18,11 +21,22 @@
     <h1 id="panel">
 
         <div id="menu">
-            <a ref="#" id="menu"></a>
+            <a></a>
         </div>
 
         <img src="https://github.com/Fearester2008/Alt-Engine/blob/main/art/iconOG.png?raw=true" id="siteImage" width=150px>
         
-        <h1 id="siteName">Alt Engine</h1>
+        <h1 id="siteName" onclick=makeAnim()>Alt Engine</h1>
+
+        <button class="windowsButton">
+            <h1 id="windowsButtonText">Windows</h1>
+            <img src="https://cdn-icons-png.flaticon.com/512/882/882702.png" id="windowsButtonImage" width=45px>
+        </button>
+
+        <button class="linuxButton">
+            <h1 id="linuxButtonText">Linux</h1>
+            <img src="https://cdn.icon-icons.com/icons2/46/PNG/128/linux_penguin_animal_9362.png" id="linuxButtonImage" width=45px>
+        </button>
+
     </h1>
 </body>

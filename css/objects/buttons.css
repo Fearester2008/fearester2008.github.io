@@ -1,0 +1,54 @@
+.windowsButton {
+    background-color: #52001f;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 35px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    left: 0px;
+    top: 140px;
+  }
+#windowsButtonImage
+{
+ position: absolute;
+ left: 20px;
+ top: 15px;
+}
+#windowsButtonText
+{
+ position: absolute;
+ left: 80px;
+ top: 0px;
+}
+
+
+.linuxButton {
+    background-color: #52001f;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 35px 95px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    left: 340px;
+    top: 140px;
+  }
+#linuxButtonImage
+{
+ position: absolute;
+ left: 20px;
+ top: 15px;
+}
+#linuxButtonText
+{
+ position: absolute;
+ left: 80px;
+ top: 0px;
+}
